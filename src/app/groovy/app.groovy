@@ -1,4 +1,4 @@
 get('/') {
-    'Hello, World!'
+    renderer.render 'index.html'
 }
 
