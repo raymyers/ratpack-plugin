@@ -1,4 +1,4 @@
 get('/') {
-    renderer.render 'index.html'
+    renderer.render('index.html', [now: new Date()])
 }
 
