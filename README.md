@@ -4,12 +4,11 @@
 
 Ratpack is inspired by the excellent [Sinatra](http://www.sinatrarb.com/) framework for Ruby, and aims to make Groovy web development more classy.
 
-This project is the Ratpack Gradle Plugin. It depends on [Ratpack Core](http://github.com/tlberglund/ratpack-core), which contains all of the actual framework code. The Gradle plugin makes it easy to apply all of the Ratpack build and development functionality to a Ratpack project with a few lines of Gradle configuration. For an example of this, see the [Ratpack Project Template](http://github.com/tlberglund/ratpack-template).
+This project is the Ratpack Project Template. If you want to start a new Ratpack application, you are in the right place. You can fork this repo, clone it, or just [download the files](https://github.com/tlberglund/ratpack-template/zipball/master). And use them directly. (When you are starting your own Ratpack application, you may not want to maintain a version history with this template starter project.)
 
-Ratpack is implemented as a Gradle plugin. Every Ratpack project is also a Gradle build. This is a fundamental design decision of the framework (and a good one!), not a limitation in the present implementation.
+## A Ratpack Project is a Gradle Build
 
-## Using the Ratpack Gradle Plugin
-
+All Ratpack applications are built with Gradle. If you don't have Gradle installed, don't worry. Just run the `gradlew` command, and Gradle will be downloaded and cached for you.
 To turn your build into a Ratpack project, apply the plugin as follows:
 
 ```
